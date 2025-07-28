@@ -1,134 +1,92 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Naama Cohen CV</title>
-  <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      margin: 12px;
-      color: #222;
-      line-height: 1.25;
-      max-width: 800px;
-      font-size: 12.5px;
-    }
-    h1 {
-      text-align: center;
-      font-size: 24px;
-      margin-bottom: 4px;
-    }
-    h2 {
-      font-size: 16px;
-      border-bottom: 1px solid #ddd;
-      margin-top: 16px;
-      padding-bottom: 3px;
-    }
-    h3 {
-      font-size: 13px;
-      margin: 4px 0 2px;
-    }
-    ul {
-      margin-left: 18px;
-      padding-left: 12px;
-      margin-top: 2px;
-      margin-bottom: 6px;
-    }
-    a {
-      color: #0645AD;
-      text-decoration: none;
-      word-break: break-word;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    .section {
-      margin-top: 10px;
-    }
-    .contact {
-      text-align: center;
-      font-size: 12px;
-      color: #444;
-      margin-bottom: 10px;
-    }
-    .tech-section li {
-      margin-bottom: 3px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <title>Naama Cohen | Backend Developer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Raleway:wght@300;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Raleway', 'Inter', sans-serif;
+            background-color: #0d1117;
+            color: #e6edf3;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 60px 20px;
+        }
+        .card {
+            background: #161b22;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 12px 36px rgba(0,0,0,0.4);
+            max-width: 540px;
+            width: 100%;
+        }
+        h1 {
+            font-size: 30px;
+            color: #58a6ff;
+            margin-bottom: 5px;
+            font-weight: 700;
+        }
+        h2 {
+            font-size: 18px;
+            font-weight: 500;
+            color: #c9d1d9;
+            margin-bottom: 30px;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section-title {
+            font-weight: 600;
+            font-size: 16px;
+            margin-bottom: 14px;
+            color: #f0f6fc;
+        }
+        .link {
+            display: block;
+            color: #9cdcfe;
+            background-color: #21262d;
+            padding: 10px 14px;
+            margin-bottom: 10px;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            font-size: 15px;
+        }
+        .link:hover {
+            background-color: #30363d;
+            transform: translateX(4px);
+        }
+        .tagline {
+            font-style: italic;
+            color: #8b949e;
+            margin-bottom: 30px;
+            font-size: 14px;
+        }
+    </style>
 </head>
 <body>
-  <h1>Naama Cohen</h1>
-  <div class="contact">
-    Backend Software Developer<br>
-    📞 Calls: +972-54-841-7222 | 💬 WhatsApp: <a href="https://wa.me/97226505666" target="_blank">Click to Chat</a><br>
-    ✉️ cohennama@gmail.com | <a href="https://linkedin.com/in/naama-cohen-2a799963" target="_blank">LinkedIn</a> | <a href="https://github.com/CohenNaama" target="_blank">GitHub</a>
-  </div>
-
-  <div class="section">
-    <h2>Profile Summary</h2>
-    <p>Entry-level Backend Developer with hands-on experience building scalable backend systems using Python, FastAPI, Flask, and Docker. Completed a full stack development program and continued to sharpen skills through independent, production-style projects that integrate AI technologies (OpenAI, Gemini, Claude), asynchronous processing, and cloud deployment (AWS, Azure). Bringing strong technical foundations, systems thinking, self-discipline, and a proactive approach to learning and problem-solving. Currently seeking an opportunity to join a backend team, grow within a collaborative environment, and contribute to building efficient, maintainable systems.</p>
-  </div>
-
-  <div class="section tech-section">
-    <h2>Tech Stack & Tools</h2>
-    <ul>
-      <li><strong>Languages & Technologies:</strong> Python | Flask | Django | FastAPI | Node.js | JavaScript | HTML | CSS</li>
-      <li><strong>Frontend Development:</strong> React | Redux | Material-UI | Bootstrap | Socket.IO | Axios</li>
-      <li><strong>Databases:</strong> PostgreSQL | SQL Server | SQLite | SQLAlchemy | Alembic</li>
-      <li><strong>Cloud & Infrastructure:</strong> AWS (EC2, RDS, S3) | Azure | Docker | Kafka | Nginx | CI/CD Pipelines | Gunicorn</li>
-      <li><strong>Tools & Development Practices:</strong> GitHub | Postman | Unit Testing (pytest, Supertest, Jest) | JWT Authentication | OOP</li>
-      <li><strong>AI Integrations:</strong> OpenAI API | Gemini | Claude</li>
-    </ul>
-  </div>
-
-  <div class="section">
-    <h2>Selected Projects</h2>
-
-    <h3>2025 | AI-Powered Microservices Platform <a href="https://github.com/CohenNaama/ai-microservices-platform" target="_blank">[GitHub]</a></h3>
-    <ul>
-      <li>Async FastAPI microservice for text ingestion, validation & deduplication</li>
-      <li>Kafka, Redis, PostgreSQL; structured logging & test coverage</li>
-      <li>Planned OpenAI integration for enrichment</li>
-    </ul>
-
-    <h3>2024 | Trivia VS AI <a href="https://github.com/CohenNaama/TriviaVsAI-Server" target="_blank">[Server]</a> <a href="https://github.com/CohenNaama/triviavsai-client" target="_blank">[Client]</a></h3>
-    <ul>
-      <li>Trivia engine with OpenAI question generation and Gemini adaptive difficulty</li>
-      <li>Real-time feedback using Claude sentiment analysis</li>
-    </ul>
-
-    <h3>2024 | AskMe - AI Q&A Platform <a href="https://askmeflaskapp.azurewebsites.net/" target="_blank">[Live]</a> <a href="https://github.com/CohenNaama/AskMe-Server" target="_blank">[GitHub]</a></h3>
-    <ul>
-      <li>Flask-based Q&A app integrated with OpenAI API</li>
-      <li>Dockerized with CI/CD pipeline and Pytest coverage, deployed to Azure</li>
-    </ul>
-
-    <h3>2024 | Social App – Real-Time Chat <a href="https://bitbucket.org/myfirstflaskapp/social-app-server/src/main/" target="_blank">[Server]</a> <a href="https://bitbucket.org/myfirstflaskapp/social-app-client/src/main/" target="_blank">[Client]</a></h3>
-    <ul>
-      <li>Flask backend with JWT auth, real-time chat via Socket.IO</li>
-      <li>Client built with React, Redux, and auth guards</li>
-    </ul>
-  </div>
-
-  <div class="section">
-    <h2>Professional Experience</h2>
-    <h3>Freelance Sound Tech & Producer (2003–2023)</h3>
-    <p>Managed audio engineering, troubleshooting, and live tech setups. Sharp system skills, creative solutions.</p>
-    <h3>Head of Sound Dept & Lecturer | MBJ & Avivim (2002–2022)</h3>
-    <p>Trained students, led teams, managed technical operations in studio and academic environments.</p>
-  </div>
-
-  <div class="section">
-    <h2>Education</h2>
-    <ul>
-      <li><strong>Code Master</strong> – Practical Software Development Program (2025)</li>
-      <li><strong>Python Fullstack Development</strong> – John Bryce College (2022–2023)</li>
-      <li><strong>B.Ed. in Music & Education</strong> – Jerusalem College (2012–2014)</li>
-      <li><strong>Sound Production and Studio Recording</strong> – BPM College (2009–2011)</li>
-    </ul>
-  </div>
-
-  <div class="section">
-    <p><strong>Languages:</strong> Hebrew – Native | English – High Level &emsp;&emsp; <strong>References:</strong> Available upon request</p>
-  </div>
+    <div class="card">
+        <h1>Naama Cohen</h1>
+        <h2>Backend Software Developer</h2>
+        <div class="tagline">
+            Backend developer building scalable APIs and cloud-ready services with Python, FastAPI, Docker & AI — through hands-on, production-style personal projects.
+        </div>
+        <div class="section">
+            <div class="section-title">📄 Download My CV</div>
+            <a class="link" href="https://drive.google.com/file/d/165DceeUY6uQ1CytHdTY44s6_P62WUnOq/view?usp=sharing" target="_blank">
+                View/Download CV
+            </a>
+        </div>
+        <div class="section">
+            <div class="section-title">🔗 Links</div>
+            <a class="link" href="https://www.linkedin.com/in/naama-cohen-2a799963/" target="_blank">LinkedIn</a>
+            <a class="link" href="https://github.com/CohenNaama" target="_blank">GitHub</a>
+            <a class="link" href="mailto:cohennama@gmail.com">Email: cohennama@gmail.com</a>
+            <a class="link" href="https://wa.me/97226505666" target="_blank">WhatsApp Chat</a>
+        </div>
+    </div>
 </body>
 </html>
